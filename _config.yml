@@ -1,5 +1,7 @@
 title: "React Native Tutorial"
-remote_theme: pmarsceill/just-the-docs
+# remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
+
 # Enable or disable the site search
 # Support true (default) or false
 search_enabled: true
@@ -20,6 +22,7 @@ ga_tracking: UA-147391080-1
 
 plugins:
   - jekyll-seo-tag
+  # - jekyll-multiple-languages-plugin
 
 compress_html:
   clippings: all
@@ -28,3 +31,8 @@ compress_html:
   startings: []
   blank_lines: false
   profile: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Examples
